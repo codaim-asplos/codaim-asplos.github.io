@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizers - CoDAIM 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">CoDAIM 2026</a>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cfp.html">Call for Papers</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="organizers.html" class="active">Organizers</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Organizers</h1>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="content-section">
+            <h2>Workshop Chairs</h2>
+            <div class="organizers-grid">
+                <div class="organizer-card">
+                    <div class="organizer-photo placeholder"></div>
+                    <h3>Nishil Talati</h3>
+                    <p class="affiliation">Affiliation TBA</p>
+                    <a href="mailto:" class="email">email@example.com</a>
+                </div>
+                <div class="organizer-card">
+                    <div class="organizer-photo placeholder"></div>
+                    <h3>Fan Lai</h3>
+                    <p class="affiliation">Affiliation TBA</p>
+                    <a href="mailto:" class="email">email@example.com</a>
+                </div>
+                <!-- Add more organizers as needed -->
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Program Committee</h2>
+            <p>The program committee consists of faculty and senior industry researchers. To foster mentorship, PC members may nominate one student reviewer whose contributions will be formally recognized.</p>
+            <p><em>Program committee members will be announced soon.</em></p>
+            <!--
+            <ul class="pc-list">
+                <li><strong>Name</strong>, Affiliation</li>
+                <li><strong>Name</strong>, Affiliation</li>
+            </ul>
+            -->
+        </section>
+
+        <section class="content-section">
+            <h2>Contact</h2>
+            <p>For questions about the workshop, please contact the organizers at:</p>
+            <p><a href="mailto:codaim2026@example.com">codaim2026@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 CoDAIM Workshop. Co-located with ASPLOS 2026.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

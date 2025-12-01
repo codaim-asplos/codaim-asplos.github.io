@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule - CoDAIM 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">CoDAIM 2026</a>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cfp.html">Call for Papers</a></li>
+                    <li><a href="schedule.html" class="active">Schedule</a></li>
+                    <li><a href="organizers.html">Organizers</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Workshop Schedule</h1>
+            <p class="subtitle">March 23, 2026 (Full Day)</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="content-section">
+            <h2>Morning Session</h2>
+            <p class="session-time">9:30 AM – 12:00 PM</p>
+            <div class="schedule-table">
+                <div class="schedule-item">
+                    <span class="time">9:30 – 9:45</span>
+                    <div class="event-details">
+                        <span class="event-title">Opening Remarks</span>
+                        <span class="event-desc">Overview, submission statistics, agenda, and announcement of the best paper award</span>
+                        <span class="speaker">Nishil Talati</span>
+                    </div>
+                </div>
+                <div class="schedule-item keynote">
+                    <span class="time">9:45 – 10:30</span>
+                    <div class="event-details">
+                        <span class="event-title">Keynote 1</span>
+                        <span class="event-desc">TBA</span>
+                        <span class="speaker">Speaker TBA</span>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">10:30 – 10:45</span>
+                    <div class="event-details">
+                        <span class="event-title">Coffee Break</span>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">10:45 – 12:00</span>
+                    <div class="event-details">
+                        <span class="event-title">Contributed Talks Session 1</span>
+                        <span class="event-desc">Selected papers (12 min presentation + 3 min Q&A each)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="lunch-break">
+                <span class="time">12:00 PM – 2:00 PM</span>
+                <span class="event-title">Lunch Break</span>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Afternoon Session</h2>
+            <p class="session-time">2:00 PM – 5:00 PM</p>
+            <div class="schedule-table">
+                <div class="schedule-item keynote">
+                    <span class="time">2:00 – 2:45</span>
+                    <div class="event-details">
+                        <span class="event-title">Keynote 2</span>
+                        <span class="event-desc">TBA</span>
+                        <span class="speaker">Speaker TBA</span>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">2:45 – 3:30</span>
+                    <div class="event-details">
+                        <span class="event-title">Contributed Talks Session 2</span>
+                        <span class="event-desc">Selected papers (12 min presentation + 3 min Q&A each)</span>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">3:30 – 3:45</span>
+                    <div class="event-details">
+                        <span class="event-title">Coffee Break</span>
+                    </div>
+                </div>
+                <div class="schedule-item panel">
+                    <span class="time">3:45 – 4:25</span>
+                    <div class="event-details">
+                        <span class="event-title">Panel Discussion</span>
+                        <span class="event-desc">"Co-Designing the Future of Agentic AI Systems"</span>
+                        <span class="speaker">Experts from systems, architecture, and AI</span>
+                    </div>
+                </div>
+                <div class="schedule-item">
+                    <span class="time">4:25 – 4:35</span>
+                    <div class="event-details">
+                        <span class="event-title">Concluding Remarks</span>
+                        <span class="event-desc">Summary of discussions, emerging directions, and feedback</span>
+                        <span class="speaker">Fan Lai</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Post-Workshop</h2>
+            <p>A post-workshop summary paper capturing insights and challenges discussed during the event will be released publicly on <strong>arXiv</strong> or <strong>ACM Digital Library</strong> for open access.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 CoDAIM Workshop. Co-located with ASPLOS 2026.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

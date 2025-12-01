@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call for Papers - CoDAIM 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">CoDAIM 2026</a>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cfp.html" class="active">Call for Papers</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="organizers.html">Organizers</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Call for Papers</h1>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="content-section">
+            <h2>Submission Guidelines</h2>
+            <p>The CoDAIM 2026 workshop seeks research papers and position articles on innovations at the intersection of AI, systems, and architecture. We invite <strong>short (up to 2-page) submissions</strong> that present early-stage ideas, empirical results, or visionary perspectives.</p>
+            <p>Accepted papers will be presented as <strong>15-minute talks</strong> and included in the workshop proceedings.</p>
+
+            <h3>Paper Structure</h3>
+            <p>Papers should include the following sections:</p>
+            <ol>
+                <li><strong>Problem statement</strong> and motivating evidence</li>
+                <li><strong>State-of-the-art</strong></li>
+                <li><strong>Proposed solution</strong></li>
+                <li><strong>Quantitative evidence</strong> showing why the solution works</li>
+            </ol>
+            <p>Optionally, authors can add a discussion/future work section. All content should fit within 2 pages. The paper can also have an unlimited number of references, and an optional section explaining how the authors used AI tools.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Topics of Interest</h2>
+            <p>Topics include, but are not limited to:</p>
+            <ul class="topics-list">
+                <li>Systems for agentic and multimodal AI</li>
+                <li>Foundations of generative and agentic inference</li>
+                <li>Cross-layer co-design: algorithm–compiler–runtime–architecture</li>
+                <li>Cost-, latency-, and energy-optimized inference</li>
+                <li>Hardware/software co-optimization for LLMs and multimodal models</li>
+                <li>Efficient model serving: batching, caching, speculative decoding</li>
+                <li>Memory, I/O, and scheduling optimizations in AI inference</li>
+                <li>Model compression and deployment strategies</li>
+                <li>AI-driven system optimization and auto-tuning</li>
+                <li>Evaluation methodologies and performance analysis for AI inference</li>
+                <li>Real-world case studies and workload characterization</li>
+            </ul>
+            <p>We welcome both academic and industry submissions.</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Review Process</h2>
+            <p>Each paper will be reviewed by the program committee, consisting of faculty and senior industry researchers. To foster mentorship, PC members may nominate one student reviewer whose contributions will be formally recognized.</p>
+        </section>
+
+        <section class="content-section dates-section">
+            <h2>Important Dates</h2>
+            <div class="dates-grid">
+                <div class="date-item">
+                    <span class="date">January 15, 2026</span>
+                    <span class="event">Paper Submission Deadline</span>
+                </div>
+                <div class="date-item">
+                    <span class="date">February 7, 2026</span>
+                    <span class="event">Review Deadline</span>
+                </div>
+                <div class="date-item">
+                    <span class="date">February 15, 2026</span>
+                    <span class="event">Paper Notification</span>
+                </div>
+                <div class="date-item">
+                    <span class="date">March 1, 2026</span>
+                    <span class="event">Camera-Ready Deadline</span>
+                </div>
+                <div class="date-item highlight">
+                    <span class="date">March 23, 2026</span>
+                    <span class="event">Workshop Date</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>AI Use Policy</h2>
+            <p>Authors may leverage AI tools for tasks such as writing assistance, code debugging, plotting, or grammar polishing. However, <strong>AI tools should not be used to autonomously generate full papers</strong>.</p>
+            <p>Each submission must include a brief statement (not counted toward the page limit) describing how AI tools were used.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 CoDAIM Workshop. Co-located with ASPLOS 2026.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

@@ -419,6 +419,20 @@ main {
     column-gap: 2rem;
 }
 
+/* Small organizers grid for web chairs */
+.organizers-grid.small {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.organizers-grid.small .organizer-card {
+    padding: 1rem;
+}
+
+.organizers-grid.small .organizer-card h3 {
+    font-size: 1rem;
+}
+
 /* Footer */
 footer {
     background: var(--primary-color);

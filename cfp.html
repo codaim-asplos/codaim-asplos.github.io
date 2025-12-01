@@ -24,6 +24,7 @@
                     <li><a href="cfp.html" class="active">Call for Papers</a></li>
                     <li><a href="schedule.html">Schedule</a></li>
                     <li><a href="organizers.html">Organizers</a></li>
+                    <li><a href="conduct.html">Code of Conduct</a></li>
                 </ul>
             </div>
         </nav>
@@ -39,41 +40,67 @@
         <section class="content-section">
             <h2>Submission Guidelines</h2>
             <p>The CoDAIM 2026 workshop seeks research papers and position articles on innovations at the intersection of AI, systems, and architecture. We invite <strong>short (up to 2-page) submissions</strong> that present early-stage ideas, empirical results, or visionary perspectives.</p>
-            <p>Accepted papers will be presented as <strong>15-minute talks</strong> and included in the workshop proceedings.</p>
+            <p>Accepted papers will be presented as <strong>15-minute talks</strong> (12 minutes presentation + 3 minutes Q&A) and included in the workshop proceedings.</p>
 
             <h3>Paper Structure</h3>
             <p>Papers should include the following sections:</p>
             <ol>
-                <li><strong>Problem statement</strong> and motivating evidence</li>
-                <li><strong>State-of-the-art</strong></li>
-                <li><strong>Proposed solution</strong></li>
-                <li><strong>Quantitative evidence</strong> showing why the solution works</li>
+                <li><strong>Problem Statement:</strong> What's the problem? Include motivating evidence.</li>
+                <li><strong>State-of-the-Art:</strong> What are the current approaches?</li>
+                <li><strong>Proposed Solution:</strong> What is your solution/key insight?</li>
+                <li><strong>Quantitative Evidence:</strong> What evidence shows why the solution works?</li>
+                <li><strong>(Optional) Discussion/Future Work</strong></li>
+                <li><strong>AI Use Statement:</strong> How was AI used in this paper? (not counted toward page limit)</li>
             </ol>
-            <p>Optionally, authors can add a discussion/future work section. All content should fit within 2 pages. The paper can also have an unlimited number of references, and an optional section explaining how the authors used AI tools.</p>
+            <p>All main content should fit within <strong>2 pages</strong>. References are unlimited and do not count toward the page limit.</p>
+
+            <h3>Template</h3>
+            <p>Please use the <strong>ASPLOS submission template</strong> for your paper.</p>
         </section>
 
         <section class="content-section">
             <h2>Topics of Interest</h2>
-            <p>Topics include, but are not limited to:</p>
+            <p>We welcome submissions on co-design across the full stack: <strong>Application + Algorithm + PL + OS + Network + Compiler + Architecture</strong>. Topics include, but are not limited to:</p>
+
+            <h3>Systems for AI</h3>
             <ul class="topics-list">
-                <li>Systems for agentic and multimodal AI</li>
-                <li>Foundations of generative and agentic inference</li>
-                <li>Cross-layer co-design: algorithm–compiler–runtime–architecture</li>
-                <li>Cost-, latency-, and energy-optimized inference</li>
-                <li>Hardware/software co-optimization for LLMs and multimodal models</li>
-                <li>Efficient model serving: batching, caching, speculative decoding</li>
-                <li>Memory, I/O, and scheduling optimizations in AI inference</li>
-                <li>Model compression and deployment strategies</li>
+                <li>Foundations of generative and agentic AI inference</li>
+                <li>Architectural patterns and design considerations for AI systems</li>
+                <li>Cost-, latency-, and energy-optimized inference techniques</li>
+                <li>System architectures for serving AI agents</li>
+                <li>Case studies from real-world deployments</li>
+                <li>Bottleneck identification and performance tuning in model serving</li>
+                <li>Model compression (quantization, pruning, distillation)</li>
+                <li>Caching, batching, and speculative decoding for throughput optimization</li>
+                <li>Hardware-aware and system-level optimizations (e.g., FlashAttention, scheduler tuning)</li>
+                <li>Efficient inference on specialized hardware (GPUs, TPUs, custom ASICs)</li>
+                <li>Deployment strategies for large-scale agentic systems</li>
+                <li>Evaluation methodologies for inference optimization</li>
+                <li>Scaling laws and trends in inference workloads</li>
+            </ul>
+
+            <h3>AI for Systems</h3>
+            <ul class="topics-list">
                 <li>AI-driven system optimization and auto-tuning</li>
-                <li>Evaluation methodologies and performance analysis for AI inference</li>
-                <li>Real-world case studies and workload characterization</li>
+                <li>Machine learning for datacenter and edge scenarios</li>
             </ul>
             <p>We welcome both academic and industry submissions.</p>
         </section>
 
         <section class="content-section">
             <h2>Review Process</h2>
-            <p>Each paper will be reviewed by the program committee, consisting of faculty and senior industry researchers. To foster mentorship, PC members may nominate one student reviewer whose contributions will be formally recognized.</p>
+            <p>Each paper will be reviewed by the program committee, consisting of faculty and senior industry researchers.</p>
+
+            <h3>Student Mentorship</h3>
+            <p>To foster mentorship, each PC member may assign up to one student to help review papers. Students must be nominated upon accepting the PC invitation. The final review must be written by the PC member. After reviews are complete, we will formally recognize student reviewers for their contributions.</p>
+
+            <h3>Review Criteria</h3>
+            <p>Reviews will include:</p>
+            <ul>
+                <li><strong>Accept/Reject recommendation</strong> (score 1-5)</li>
+                <li><strong>Strengths and weaknesses</strong></li>
+                <li><strong>Feedback for developing into a full conference paper</strong></li>
+            </ul>
         </section>
 
         <section class="content-section dates-section">
@@ -97,14 +124,20 @@
                 </div>
                 <div class="date-item highlight">
                     <span class="date">March 23, 2026</span>
-                    <span class="event">Workshop Date</span>
+                    <span class="event">Workshop Date (Full Day)</span>
                 </div>
             </div>
         </section>
 
         <section class="content-section">
             <h2>AI Use Policy</h2>
-            <p>Authors may leverage AI tools for tasks such as writing assistance, code debugging, plotting, or grammar polishing. However, <strong>AI tools should not be used to autonomously generate full papers</strong>.</p>
+            <p>Authors may leverage AI tools for innovative use-cases including, but not limited to:</p>
+            <ul>
+                <li>Polishing text and grammar</li>
+                <li>Writing scripts to plot graphs</li>
+                <li>Writing and debugging implementation code</li>
+            </ul>
+            <p><strong>However, AI tools should not be used to autonomously generate an entire paper</strong> (from coming up with an idea to writing the paper).</p>
             <p>Each submission must include a brief statement (not counted toward the page limit) describing how AI tools were used.</p>
         </section>
     </main>

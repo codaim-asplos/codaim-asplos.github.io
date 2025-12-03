@@ -382,12 +382,13 @@ main {
 }
 
 .organizer-photo {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     margin: 0 auto 1rem;
     background: var(--border-color);
-    overflow: hidden;
+    object-fit: cover;
+    object-position: center top;
 }
 
 .organizer-photo.placeholder {
@@ -417,6 +418,26 @@ main {
 .pc-list {
     column-count: 2;
     column-gap: 2rem;
+}
+
+/* TBD Notice */
+.tbd-notice {
+    background: var(--light-bg);
+    border: 2px dashed var(--border-color);
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.tbd-notice h2 {
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
+
+.tbd-notice ul {
+    display: inline-block;
+    text-align: left;
+    margin-top: 1rem;
 }
 
 /* Small organizers grid for web chairs */

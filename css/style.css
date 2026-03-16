@@ -344,6 +344,16 @@ main {
     background: var(--highlight-color);
 }
 
+.schedule-item.session-header {
+    background: var(--primary-color);
+}
+
+.schedule-item.session-header .event-title {
+    color: white;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
 .schedule-item.panel {
     background: #f0fff4;
 }
